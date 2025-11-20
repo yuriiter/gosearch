@@ -1,3 +1,23 @@
+/*
+gosearch is a command-line utility for quickly searching Go packages on pkg.go.dev.
+
+It allows users to find, filter, and inspect Go modules directly from their terminal,
+providing a clean, colorized, and structured view of essential package details
+including the path, synopsis, version, import count, and license.
+
+Usage:
+
+	gosearch [flags] <query>
+
+Example:
+
+	gosearch -limit 5 http router
+
+For a full list of options, use:
+
+	gosearch -h
+*/
+
 package main
 
 import (
