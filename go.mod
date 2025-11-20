@@ -1,4 +1,4 @@
-module github.com/yuriiter/gosearch
+module github.com/yuriiter/gosearch/v0.1.2
 
 go 1.25.1
 
